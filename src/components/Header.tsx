@@ -8,8 +8,16 @@ const Header = () => {
       <div className="p-2 cursor-pointer">
         <Image src={headerLogo} width={30} alt="Picture of the author" />
       </div>
-      <div className=" cursor-pointer">
+      <div className="sm:block md:hidden cursor-pointer">
         <Image src={hamburger} width={50} height={30} alt="Hamburger menu" />
+      </div>
+      <div className="hidden md:flex space-x-4">
+        <ul className="flex text-[#64ffda]">
+          <li className="p-2 cursor-pointer hover:underline">01. About</li>
+          <li className="p-2 cursor-pointer hover:underline">02. Experience</li>
+          <li className="p-2 cursor-pointer hover:underline">03. Work</li>
+          <li className="p-2 cursor-pointer hover:underline">04. Contact</li>
+        </ul>
       </div>
     </div>
   );

@@ -9,17 +9,19 @@ import Work from '@/components/Work';
 export default function Main() {
   return (
     <>
+      {/* navbar */}
       <Header />
-      <div className="h-screen bg-red-200">
+      <div className="h-screen">
+      {/* Hero/Home */}
         <Home />
       </div>
-      <div className="h-screen bg-blue-200">
+      <div className="h-screen">
         <About />
       </div>
-      <div className="h-screen bg-green-200">
+      <div className="h-screen">
         <Experience />
       </div>
-      <div className="h-screen bg-yellow-200">
+      <div className="h-screen">
         <Work />
       </div>
     </>
