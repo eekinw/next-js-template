@@ -8,22 +8,20 @@ import Work from '@/components/Work';
 
 export default function Main() {
   return (
-    <>
-      {/* navbar */}
-      <Header />
-      <div className="h-screen">
-      {/* Hero/Home */}
-        <Home />
+      <div className="px-8 py-4">
+        <Header />
+        <div className="min-h-screen">
+          <Home />
+        </div>
+        <div className="min-h-screen">
+          <About />
+        </div>
+        <div className="min-h-screen">
+          <Experience />
+        </div>
+        <div className="min-h-screen">
+          <Work />
+        </div>
       </div>
-      <div className="h-screen">
-        <About />
-      </div>
-      <div className="h-screen">
-        <Experience />
-      </div>
-      <div className="h-screen">
-        <Work />
-      </div>
-    </>
   );
 }

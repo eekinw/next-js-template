@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Home = () => {
   return (
-    <div className="flex flex-col px-8 py-4 gap-y-3">
+    <div className="flex flex-col gap-y-3">
       <span>Hi, my name is</span>
       <h1 className="text-5xl font-bold">Ee Kin</h1>
       <h1 className="text-5xl font-bold">I build things for the web.</h1>
