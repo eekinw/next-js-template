@@ -1,9 +1,37 @@
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const SocMedIcons = () => {
   return (
-      <div>SocMedIcons</div>
-      // just use a library for this and make the position absolute 
-  )
-}
+    <div>
+      <div className="flex justify-center gap-10">
+        <a
+          href="https://twitter.com/eekinw"
+          className="hover:text-primaryred"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaXTwitter size={20} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/eekinwong/"
+          className="hover:text-primaryred"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin size={20} />
+        </a>
+        <a
+          href="https://github.com/eekinw"
+          className="hover:text-primaryred"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub size={20} />
+        </a>
+      </div>
+    </div>
+  );
+};
 
-export default SocMedIcons
+export default SocMedIcons;

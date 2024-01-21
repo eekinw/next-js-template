@@ -8,9 +8,7 @@ const Home = () => {
       <h1 className="text-5xl font-bold">I build things for the web.</h1>
       <div className="">
         <p>
-          I’m a software engineer specializing in building (and occasionally designing) exceptional
-          digital experiences. Currently, I’m focused on building accessible, human-centered
-          products at <span>SUPA</span>.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto veniam ex dolor fuga beatae nostrum rem ipsam totam deleniti quaerat nemo eligendi quidem, maiores ab explicabo dolorem, adipisci debitis id. Perspiciatis hic doloribus debitis eligendi iste ad laudantium alias recusandae eos aperiam, nulla, dolor, vitae cumque quisquam doloremque! Autem, voluptas corporis expedita aliquid corrupti tempora commodi vitae nihil porro, animi praesentium officiis sed facilis ea obcaecati magni reprehenderit qui optio quas. Rerum illum molestias placeat aliquam, dicta cum impedit voluptatum.<span>SUPA</span>.
         </p>
       </div>
       <Button className="max-w-md">Check out my Github!</Button>

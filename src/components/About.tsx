@@ -1,7 +1,7 @@
 import Image from "next/image";
 import myImage from '../public/me.jpeg';
-import NumberedList from "./NumberedList";
 import TechnologyList from "./TechnologyList";
+import NumberedList from "./NumberedList";
 const About = () => {
   const technologies = ["Typescript", "React", "Node", "GraphQL", "PostgreSQL", "TailwindCSS"]
   return (
@@ -30,12 +30,12 @@ const About = () => {
             src={myImage}
             width={300}
             height={300}
-            className="absolute top-3 left-1 z-10 group-hover:translate-x-[-4px] group-hover:translate-y-[-5px]"
+            className="absolute rounded-lg top-3 left-1 z-10 group-hover:translate-x-[-4px] group-hover:translate-y-[-5px]"
             alt="Ee Kin Image"
             priority
           />
           <div
-            className="w-72 h-72 border border-mint group-hover:translate-x-2 group-hover:translate-y-2"
+            className="w-72 h-72 rounded-lg border border-mint group-hover:translate-x-2 group-hover:translate-y-2"
             style={{ backgroundColor: 'transparent', boxSizing: 'border-box' }}
           ></div>
         </div>
