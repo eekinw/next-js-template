@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 const colors = require('tailwindcss/colors');
+const withMT = require("@material-tailwind/react/utils/withMT");
 
 const config: Config = {
   content: [
@@ -12,7 +13,17 @@ const config: Config = {
       colors: {
         primary: colors.indigo[500],
         mint: '#64ffda',
+        gold: '#D4AF37',
         primaryred: '#ff1744',
+        blurple: '#6b66fa',
+        secondary: '#1B1839',
+        primary95: '#EBE8F5',
+        greys1: '#424242',
+        neutral90: '#DADADA',
+        neutral95: '#F7F7F7',
+        neutral: '#FFFFFF',
+        peach: '#E76C6C',
+        beige: '#FFE3E3',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

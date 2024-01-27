@@ -7,7 +7,7 @@ const SocMedIcons = () => {
       <div className="flex justify-center gap-10">
         <a
           href="https://twitter.com/eekinw"
-          className="hover:text-primaryred"
+          className="hover:text-gold"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -15,7 +15,7 @@ const SocMedIcons = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/eekinwong/"
-          className="hover:text-primaryred"
+          className="hover:text-gold"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -23,7 +23,7 @@ const SocMedIcons = () => {
         </a>
         <a
           href="https://github.com/eekinw"
-          className="hover:text-primaryred"
+          className="hover:text-gold"
           target="_blank"
           rel="noopener noreferrer"
         >

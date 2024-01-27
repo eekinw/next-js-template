@@ -9,7 +9,7 @@ const NumberedList = ({ number, title }: NumberedListProps) => {
     <div className="flex gap-x-2 items-center">
       <div>{number}.</div>
       <div>{title}</div>
-      <hr className="w-1/3 h-0.5 bg-gray-500 border-0 rounded my-2"></hr>
+      <hr className="w-1/3 h-0.5 bg-gold border-0 rounded my-2"></hr>
     </div>
   );
 };

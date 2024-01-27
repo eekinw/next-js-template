@@ -8,7 +8,7 @@ const TechnologyList = ({ technologies }: TechnologyListProps) => {
       <ul className="grid grid-cols-2 gap-4">
         {technologies.map((t, index) => (
           <li key={index}>
-            <span className=" text-primaryred">▹ </span>  {t}
+            <span className=" text-gold">▹ </span>  {t}
           </li>
         ))}
       </ul>

@@ -19,6 +19,14 @@
 body {
   color: rgb(var(--foreground-rgb));
   /* background-color: #0a192f; */
-  background-color: #0f0d0d;
+  background-color: #000000;
   color: #FEFEE3;
+}
+
+p {
+  line-height: 1.625;
+}
+
+.blur {
+  filter: blur(5px);
 }

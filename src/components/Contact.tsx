@@ -1,18 +1,27 @@
+import Button from "./Button";
 import NumberedList from "./NumberedList";
 
 const Contact = () => {
     return (
       <>
-        <NumberedList number="04" title="What's Next?" />
-        <div className="  flex flex-col justify-center items-center gap-y-4 m-10">
-          <h1 className=" text-2xl font-bold text-primaryred">Let&apos;s Connect</h1>
-          <p className=" text-justify">
-            Although I’m not currently looking for any new opportunities, my inbox is always open.
-            Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        <div className="mb-10" id="contact">
+          <NumberedList number="04" title="What's Next?" />
+        </div>
+
+        <div className="flex flex-col gap-y-4 m-10">
+          <h1 className="text-2xl font-bold text-gold">Let&apos;s Connect</h1>
+          <p className="text-justify">
+            I'm always excited to explore new opportunities and collaborate on innovative projects.
+            If you're interested in working together or just want to say hi, feel free to reach out.
+            Let's create something amazing!
           </p>
-          <div className="mt-5 p-10">
-            <button className="px-4 py-2 rounded-md border border-solid border-mint hover:scale-110">Say Hello</button>
-          </div>
+        </div>
+        <div className="flex justify-center mt-5 p-10">
+          <a href="mailto:wongeekinn@gmail.com">
+            <Button className="max-w-1/3 hover:scale-105 transition-all ease-in-out">
+              Contact Me
+            </Button>
+          </a>
         </div>
       </>
     );
