@@ -1,9 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import Tween from 'kute.js';
-import { useInView } from 'react-intersection-observer';
-
 import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Experience from '@/components/Experience';
@@ -11,6 +7,10 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Home from '@/components/Home';
 import SideProjects from '@/components/SideProjects';
+import { motion } from 'framer-motion';
+import Tween from 'kute.js';
+import { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 export default function Main() {
 
@@ -39,6 +39,7 @@ export default function Main() {
     threshold: 0.2,
   });
 
+useEffect(() => {
   const animateBlob = () => {
     const path1 = document.querySelector('#blob1');
     const path2 = document.querySelector('#blob2');
@@ -48,12 +49,13 @@ export default function Main() {
         path1,
         { path: path1.getAttribute('d') },
         { path: path2.getAttribute('d') },
-        { repeat: 999, duration: 3000, yoyo: true },
+        { repeat: 999, duration: 2000, yoyo: true },
       ).start();
     }
   };
 
   animateBlob();
+}, []);
   return (
     <>
       <Header />
