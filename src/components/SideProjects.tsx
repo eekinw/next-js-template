@@ -52,7 +52,7 @@ const Work = () => {
             name="Rewards App (Frontend)"
             description="Build a full-stack rewards application that provides a user-friendly interface for managing rewards and loyalty programs for data annotators."
             lang={['Typescript', 'Tailwind', 'NextJS']}
-            href=""
+            href="https://github.com/eekinw/rewards_frontend"
           />
         </motion.div>
         <motion.div
@@ -66,7 +66,7 @@ const Work = () => {
             name="Rewards App (Backend)"
             description="The backend of the Rewards App, handling data storage, retrieval, and business logic for the rewards."
             lang={['JavaScript', 'Prisma ORM']}
-            href=""
+            href="https://github.com/eekinw/rewards-backend"
           />
         </motion.div>
         <motion.div
@@ -80,7 +80,7 @@ const Work = () => {
             name="Whack a Mole Clone"
             description="A fun and interactive game built during my self-taught journey, built with purely vanilla CSS and Javascript."
             lang={['HTML', 'CSS', 'JavaScript']}
-            href=""
+            href="https://github.com/eekinw/whac-a-mole"
           />
         </motion.div>
         <motion.div
@@ -94,7 +94,7 @@ const Work = () => {
             name="Flappy Bird Clone"
             description="A recreation of the popular Flappy Bird game. Fly through obstacles and try to achieve the highest score!"
             lang={['HTML', 'CSS', 'JavaScript']}
-            href=""
+            href="https://github.com/eekinw/flappy-bird-clone"
           />
         </motion.div>
       </div>

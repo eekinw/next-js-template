@@ -3,7 +3,7 @@ import myImage from '../public/me.jpeg';
 import NumberedList from "./NumberedList";
 import TechnologyList from "./TechnologyList";
 const About = () => {
-  const technologies = ["Typescript", "NextJS", "Ruby on Rails", "Amazon Web Services", "PostgreSQL", "TailwindCSS"]
+  const technologies = ["Typescript", "NextJS", "Ruby on Rails", "Amazon Web Services", "PostgreSQL", "Tailwind CSS"]
   return (
     <>
       <div className="mb-10" id="about">

@@ -3,7 +3,6 @@ import Button from "./Button";
 const Home = () => {
 
   return (
-    <>
       <div className="flex flex-col">
         <p className="mb-5 italic">Hi, my name is</p>
         <h1 className="text-5xl font-bold mb-2">Ee Kin.</h1>
@@ -39,7 +38,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-    </>
   );
 };
 
