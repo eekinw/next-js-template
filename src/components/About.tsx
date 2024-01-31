@@ -16,21 +16,21 @@ const About = () => {
           background. My interest in <span className="text-gold">tech</span> and{' '}
           <span className="text-gold">web development</span> started when I was working in my
           current company as a business operations analyst. Somewhere along the line, I decided to
-          take the plunge and learn the ropes to become a software engineer - and I haven't looked
-          back since. My daily motivation stems from the fact that I get to learn something new
-          everyday.
+          take the plunge and learn the ropes to become a software engineer - and I haven&apos;t
+          looked back since. My daily motivation stems from the fact that I get to learn something
+          new everyday.
         </p>
         <br />{' '}
         <p className=" leading-relaxed">
-          In terms of my day-to-day, I'm currently a{' '}
+          In terms of my day-to-day, I&apos;m currently a{' '}
           <span className="text-gold">full-stack engineer</span> where I get to work on everything -{' '}
           <span className="text-gold">front-end, back-end</span>, and occasionally{' '}
-          <span className="text-gold">Dev-Ops</span>! Everyday is different and that's what I love
-          about being in tech - I get to immerse myself in a variety of different things and learn
-          from them.
+          <span className="text-gold">Dev-Ops</span>! Everyday is different and that&apos;s what I
+          love about being in tech - I get to immerse myself in a variety of different things and
+          learn from them.
         </p>
         <p>
-          <br /> Here are the technologies that I've been working with recently:
+          <br /> Here are the technologies that I&apos;ve been working with recently:
         </p>
       </div>
       <div className="mt-10">
