@@ -24,7 +24,7 @@ const Home = () => {
           </Button>
         </a>
         <a
-          href="https://drive.google.com/file/d/1gjjE3hr7-CfHokGb4yEZ7WbaQg6p_JFN/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qPu3KOoReDXoL-vNBmgcY6eg7DZfyOjU/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
